@@ -13,7 +13,7 @@ edition = "2018"
 features = ["cached-block-device"]
 
 [dependencies]
-lru = { version = "0.1.15", optional = true }
+lru = { version = "0.1.17", optional = true }
 
 [features]
 default = ["std"]
